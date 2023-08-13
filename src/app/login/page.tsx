@@ -1,6 +1,6 @@
-import SignInForm from "@/components/SignInForm";
+import LoginForm from "@/components/LoginForm";
 
-export default function SignIn() {
+export default function Login() {
   return (
     <div className="flex items-center justify-center min-h-screen ">
       <div
@@ -12,7 +12,8 @@ export default function SignIn() {
           opacity: 0.3,
         }}
       />
-      <SignInForm />
+      <LoginForm />
     </div>
   );
 }
+
